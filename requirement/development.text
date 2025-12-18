@@ -1,0 +1,55 @@
+# Core Django and DRF Packages
+Django==6.0
+djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+django-filter==25.2
+
+# Authentication and User Management
+django-allauth==65.13.1
+dj-rest-auth==5.0.0
+
+# API Documentation
+drf-yasg==1.21.11
+
+# CMS (Wagtail)
+wagtail==6.0.2
+Pillow==10.2.0
+django-imagekit==4.1.0
+django-versatileimagefield==3.1
+
+# Utilities and Custom Functionality
+django-extensions==3.2.3
+django-crispy-forms==2.1.0
+django-environ==0.11.2
+django-storages==1.14.2
+django-cors-headers==4.3.1
+django-autoslug==1.9.9
+django-import-export==4.3.14
+django-phonenumber-field==7.2.0
+django-phonenumbers==1.0.1
+django-ipware==7.0.1
+
+# Development and Debugging
+django-debug-toolbar==4.2.0
+flake8==7.0.0
+black==24.3.0
+django-health-check==3.20.0
+
+# Deployment
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Database
+psycopg2-binary==2.9.9
+
+# Security / SSH / Encryption
+cryptography==42.0.5
+paramiko==3.4.0
+
+# Web Scraping
+beautifulsoup4==4.12.3
+requests==2.31.0
+
+# Data Analysis and Visualization (Optional)
+pandas==2.2.1
+matplotlib==3.8.3
